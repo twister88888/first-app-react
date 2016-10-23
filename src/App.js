@@ -15,15 +15,7 @@ export default class App extends Component {
     const items = lscache.get('todo-items') || []
     this.setState({ items: items })
   }
-
-  shouldComponentUpdate () {
-
-  }
-
-  componentWillUnmount () {
-
-  }
-
+ 
   render() {
     return (
       <div>
